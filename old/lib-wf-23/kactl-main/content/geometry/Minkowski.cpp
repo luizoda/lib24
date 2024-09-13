@@ -1,3 +1,7 @@
+/**
+ * Author: Unknown
+ * Description: Minkowski sum
+ */
 void reorderPolygon(vector<P>& p){
     int pos = 0;
     for(int i=1;i<sz(p);i++){

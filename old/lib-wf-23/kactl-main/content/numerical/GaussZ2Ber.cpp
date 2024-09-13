@@ -5,8 +5,7 @@
  * coord(v) - retorna as coordenadas (c) de v na base atual (basis^T.c = v)
  * recover(v) - retorna as coordenadas de v nos vetores na ordem em que foram inseridos
  * coord(v).first e recover(v).first - se v pertence ao span
- *
- * Complexidade:
+ * Time:
  * add, coord, recover: O(D^2 / 64)
 */
 

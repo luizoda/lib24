@@ -3,8 +3,8 @@
  * Description: Resolve sistema linear
  * Retornar um par com o numero de solucoes
  * e alguma solucao, caso exista
- * O(n^2 * m)
-*/
+ * Time: O(n^2 * m)
+ */
 
 template<typename T>
 pair<int, vector<T>> gauss(vector<vector<T>> a, vector<T> b) {

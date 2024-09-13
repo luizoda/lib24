@@ -1,17 +1,17 @@
-/** Author: Bernardo
- *
+/** 
+ * Author: Bernardo
  * Description: declara mcmf<int ou ll> nome(qtd de nodes)
+*/
+
+/*
  * min_cost_flow(s, t, f) computa o par (fluxo, custo)
- * com max(fluxo) <= f que tenha min(custo)
- * min_cost_flow(s, t) -> Fluxo maximo de custo minimo de s pra t
+ * com max(fluxo) menor ou igual a f que tenha min(custo)
+ * min_cost_flow(s, t) eh o Fluxo maximo de custo minimo de s pra t
  * Se for um dag, da pra substituir o SPFA por uma DP pra nao
  * para O(nm) no comeco
  * Se nao tiver aresta com custo negativo, nao precisa do SPFA
- *
- * O(nm + f * m log n)
- * 
-*/
-
+ * Time: O(nm + fm log n)
+ * */
 template<typename T> struct mcmf {
 	struct edge {
 		int to, rev, flow, cap; // para, id da reversa, fluxo, capacidade

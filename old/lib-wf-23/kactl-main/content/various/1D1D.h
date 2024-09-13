@@ -11,7 +11,6 @@
  * Status: Tested on 101981B
  * Time: O(NlogN)
  */
-
 dp[0] = 0;
 vector<pair<int, int> > v; // (start pos, best k)
 v.push_back(make_pair(0, 0));

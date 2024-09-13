@@ -1,8 +1,8 @@
 /** 
  * Author: Ber
- * Description: O(min(m * max_flow, n^2 m))
- * Grafo com capacidades 1 -> O(sqrt(n)*m)
+ * Description: Grafo com capacidades 1 o tempo é O(sqrt(n)*m)
  * INF ta pra int
+ * Time: O(min(m * max_flow, n^2 m))
 */
 
 struct dinic {

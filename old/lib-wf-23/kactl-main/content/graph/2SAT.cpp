@@ -1,9 +1,8 @@
-/** Author: UFMG
- *
+/** 
+ * Author: UFMG
  * Description: solve() retorna um par, o first fala se eh possivel
  * atribuir, o second fala se cada variavel eh verdadeira
- *
- * O(|V|+|E|) = O(#variaveis + #restricoes)
+ * O(|V|+|E|) = O(variaveis + restricoes)
 */
 
 struct sat {
