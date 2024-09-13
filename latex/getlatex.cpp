@@ -1,6 +1,13 @@
-#include <bits/stdc++.h>
+#include <iostream>
+#include <fstream>
+#include <string>
+#include <vector>
+#include <set>
+#include <algorithm>
+#include <memory>
+#include <array>
+#include <cstdio>
 #include <dirent.h>
-
 using namespace std;
 
 #define RED "\033[0;31m"
