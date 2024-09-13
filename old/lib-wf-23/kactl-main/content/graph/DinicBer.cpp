@@ -1,8 +1,10 @@
-// Dinic
-//
-// O(min(m * max_flow, n^2 m))
-// Grafo com capacidades 1 -> O(sqrt(n)*m)
-// INF ta pra int
+/** 
+ * Author: Ber
+ * Description: O(min(m * max_flow, n^2 m))
+ * Grafo com capacidades 1 -> O(sqrt(n)*m)
+ * INF ta pra int
+*/
+
 struct dinic {
 	const bool scaling = false;
 	int lim;

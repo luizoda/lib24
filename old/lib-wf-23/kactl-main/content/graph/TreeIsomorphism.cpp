@@ -1,9 +1,11 @@
-// Tree Isomorphism
-//
-// Acha se duas arvores enraizadas sao isomorficas
-// Usa hashing 
-// Se nao forem enraizadas basta achar os centroides
-// ai tenta ver se uma arvore enraizada em um centroide eh igual a outra enraizada em um dos 2 centroides
+/** 
+ * Author: Ber
+ * Description: Acha se duas arvores enraizadas sao isomorficas
+ * Usa hashing 
+ * Se nao forem enraizadas basta achar os centroides
+ * ai tenta ver se uma arvore enraizada em um centroide eh igual a outra enraizada em um dos 2 centroides
+*/
+
 #include <bits/stdc++.h>
     
 using namespace std;

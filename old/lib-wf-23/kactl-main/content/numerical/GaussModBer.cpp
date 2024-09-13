@@ -1,7 +1,9 @@
-// Eliminacao Gaussiana MOD
-// 
-// Recebe a matriz a com os coeficientes aij e bi da equacao a11x1 + a12x2 ... = b1
-// Devolve o vetor com os valores de xi
+/**
+ * Author: Ber
+ * Description: Recebe a matriz a com os coeficientes aij e bi da equacao a11x1 + a12x2 ... = b1
+ * Devolve o vetor com os valores de xi
+*/
+
 vector<ll> gauss(vector<vector<ll> > &a, ll MOD)
 {
 	int n = a.size(), m = a[0].size() - 1;

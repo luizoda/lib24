@@ -1,10 +1,11 @@
-// Tortoise and Hare
-//
-// Acha um ciclo com O(1) de memoria em O(n)
-// Util para grafos funcionais implicitos em que vc calcula a resposta localmente 
-// e depois envia a resposta em O(1)
-
-// https://codeforces.com/gym/102501 (Problema H)
+/**
+ * Author: Ber 
+ * Description: Tortoise and Hare
+ * Acha um ciclo com O(1) de memoria em O(n)
+ * Util para grafos funcionais implicitos em que vc calcula a resposta localmente 
+ * e depois envia a resposta em O(1)
+ * https://codeforces.com/gym/102501 (Problema H)
+*/
 
 ll m = (1ll<<40);
 

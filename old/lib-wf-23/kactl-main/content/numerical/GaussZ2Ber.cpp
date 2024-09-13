@@ -1,14 +1,14 @@
-// Eliminacao Gaussiana Z2
-//
-// D eh dimensao do espaco vetorial
-// add(v) - adiciona o vetor v na base (retorna se ele jah pertencia ao span da base)
-// coord(v) - retorna as coordenadas (c) de v na base atual (basis^T.c = v)
-// recover(v) - retorna as coordenadas de v nos vetores na ordem em que foram inseridos
-// coord(v).first e recover(v).first - se v pertence ao span
-//
-// Complexidade:
-// add, coord, recover: O(D^2 / 64)
-// d0a4b3
+/** 
+ * Author: Ber
+ * Description: D eh dimensao do espaco vetorial
+ * add(v) - adiciona o vetor v na base (retorna se ele jah pertencia ao span da base)
+ * coord(v) - retorna as coordenadas (c) de v na base atual (basis^T.c = v)
+ * recover(v) - retorna as coordenadas de v nos vetores na ordem em que foram inseridos
+ * coord(v).first e recover(v).first - se v pertence ao span
+ *
+ * Complexidade:
+ * add, coord, recover: O(D^2 / 64)
+*/
 
 template<int D> struct Gauss_z2 {
 	bitset<D> basis[D], keep[D];

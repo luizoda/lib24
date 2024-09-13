@@ -1,6 +1,7 @@
-// Aho-Corasick (Ber)
-// 
-// tamanho do alfabeto e soma dos tamanhos das strings
+/** Author: Ber
+ * tamanho do alfabeto e soma dos tamanhos das strings
+*/
+
 const int ALPHA = 26, SIZE = 305;
 int I = 1;
  

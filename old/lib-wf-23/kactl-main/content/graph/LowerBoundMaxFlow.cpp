@@ -1,16 +1,13 @@
-// Lower Bound Max Flow
-//
-// Max flow com lower bound nas arestas
-// 
-// add(a, b, l, r):
-// 	adiciona aresta de a pra b, onde precisa passar f de fluxo, l <= f <= r
-// add(a, b, c):
-// 	adiciona aresta de a pra b com capacidade c
-//
-// Mesma complexidade do Dinic
-
-// INF tem que ser int, de preferencia 1e9
-
+/**
+ * Author: Ber
+ * Description: Max flow com lower bound nas arestas
+ * add(a, b, l, r):
+ * 	adiciona aresta de a pra b, onde precisa passar f de fluxo, l <= f <= r
+ * add(a, b, c):
+ * 	adiciona aresta de a pra b com capacidade c
+ * Mesma complexidade do Dinic
+ * INF tem que ser int, de preferencia 1e9
+*/
 #include <bits/stdc++.h>
  
 using namespace std;

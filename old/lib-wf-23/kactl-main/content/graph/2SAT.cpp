@@ -1,9 +1,10 @@
-// 2-SAT
-//
-// solve() retorna um par, o first fala se eh possivel
-// atribuir, o second fala se cada variavel eh verdadeira
-//
-// O(|V|+|E|) = O(#variaveis + #restricoes)
+/** Author: UFMG
+ *
+ * Description: solve() retorna um par, o first fala se eh possivel
+ * atribuir, o second fala se cada variavel eh verdadeira
+ *
+ * O(|V|+|E|) = O(#variaveis + #restricoes)
+*/
 
 struct sat {
 	int n, tot;

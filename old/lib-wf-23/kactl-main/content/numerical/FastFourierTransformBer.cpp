@@ -1,5 +1,7 @@
-// FFT
-//
+/**
+ * Author: Ber
+ * Description: FFT
+*/
 typedef complex<double> C;
 void fft(vector<C>& a) {
     int n = a.size(), L = 31 - __builtin_clz(n);
