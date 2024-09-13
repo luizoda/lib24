@@ -5,8 +5,8 @@
  * Dinic() precisa ter id na struct (modificar o addEdge pra receber(a,b,cap,id)) caso queira recuperar
  * os fluxos nas arestas. Deixar ids invalidos nas arestas extras e nas arestas do grafo residual
  * Resolve pra arestas que tem lower bound e upper bound o maxflow
- * consegue resolver também pra demanda nos nós, h[x] representa a demanda do nó x
- * Para mincost-maxflow primeiro ache o fluxo máximo m. 
+ * consegue resolver tambehm pra demanda nos nos, h[x] representa a demanda do no x
+ * Para mincost-maxflow primeiro ache o fluxo maximo m. 
  * Depois adicionar edge: (source,sink,lower = m,upper = m,custo = 0)
  */
 class Demands{

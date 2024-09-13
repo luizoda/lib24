@@ -59,7 +59,7 @@ int32_t main(){
 				// pegar o item i como level 2
 				la = j , lb = min(k + y[i], s2);
 				dp[nx][la][lb] = min(dp[cur][j][k] + r[i] , dp[nx][la][lb]);
-				// não pegar nenhum item
+				// nao pegar nenhum item
 				dp[nx][j][k] = min(dp[nx][j][k] , dp[cur][j][k]);
 			}
 		}

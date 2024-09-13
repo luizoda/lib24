@@ -14,13 +14,13 @@ string NO_PRINT = "noprint";
 
 string path = "../library/";
 string hash_cmd = "sed -n 1','10000' p' tmp.cpp | sed '/^#w/d' "
-"| cpp -dD -P -fpreprocessed | tr -d '[:space:]' | md5sum | cut -c-" + to_string(HASH_LEN);
+"| cpp -dD -P -fpreprocessed | tr -d '[:space:]' | md5 | cut -c-" + to_string(HASH_LEN);
 
 string hash_cmd_full = "sed -n 1','10000' p' tmp.cpp | sed '/^#w/d' "
-"| cpp -dD -P -fpreprocessed | tr -d '[:space:]' | md5sum | cut -c-6";
+"| cpp -dD -P -fpreprocessed | tr -d '[:space:]' | md5 | cut -c-6";
 
 string hash_line_cmd = "sed -n 1','1' p' tmp.cpp | sed '/^#w/d' "
-"| cpp -dD -P -fpreprocessed | tr -d '[:space:]' | md5sum | cut -c-" + to_string(LINE_HASH_LEN);
+"| cpp -dD -P -fpreprocessed | tr -d '[:space:]' | md5 | cut -c-" + to_string(LINE_HASH_LEN);
 
 bool print_all = false;
 

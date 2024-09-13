@@ -3,15 +3,15 @@
  * Source: https://codeforces.com/blog/entry/83467
  * Description: Permite remover os upds de uma estrutura de dados como uma queue
  * Requisitos: 
- * A estrutura deve permitir rollback (retirar o último update feito)
- * A estrutura é comutativa, ou seja, o resultado de uma query independe da ordem dos updates que estão presentes
+ * A estrutura deve permitir rollback (retirar o ultimo update feito)
+ * A estrutura eh comutativa, ou seja, o resultado de uma query independe da ordem dos updates que estao presentes
  * Uso:
  * Passe a estrutura DS no add e undo, DS deve ter
  * DS.push() recebe um update e trata ele na estrutura
- * DS.pop() desfaz o update mais antigo que ainda está presente na estrutura
+ * DS.pop() desfaz o update mais antigo que ainda esta presente na estrutura
  * push(U, DS) adiciona um update no fundo da ds_queue
  * pop(DS) remove um update da frente da ds_queue
- * Time: O(Nlog(N)*(A + B)) onde A/B é o tempo de fazer/desfazer um update na esturtura
+ * Time: O(Nlog(N)*(A + B)) onde A/B eh o tempo de fazer/desfazer um update na esturtura
  * Status: tested in cf
  */
 template<class U>

@@ -43,7 +43,7 @@ typedef vector<int> vi;
 const int N = 250005;
 
 int n, k , to[N];
-ll dp[N][2]; // 0 = não posso pegar o vértice, 1 = posso pegar o vértice
+ll dp[N][2]; // 0 = nao posso pegar o vehrtice, 1 = posso pegar o vehrtice
 vpi g[N];
 ll ans = - (ll) 1e18;
 vi cost;

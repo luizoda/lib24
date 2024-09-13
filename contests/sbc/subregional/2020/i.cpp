@@ -44,7 +44,7 @@ int flag[N];
 void solve(int v){
 	// dp[v][1] -> ja sei quem eu sou, preciso gastar em adj-1
 	// e um deles pego por free
-	// dp[v][0] -> nao sei quem sou, nao posso gastar economizar onde não dá
+	// dp[v][0] -> nao sei quem sou, nao posso gastar economizar onde nao da
 	int tot=0;
 	int some = 0;
 	int AAA=0;

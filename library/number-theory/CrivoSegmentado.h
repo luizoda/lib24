@@ -2,7 +2,7 @@
  * Author: Common knowledge
  * Description: Crivo para decompor numeros no range [L,R] , $R<=10^12$
  * Precisa precomputar os primos menores que sqrtR com outro crivo
- * Após o crivo, mark[i-l] tem 1 se i não for primo, caso contrário, mark[i-l] é um primo.
+ * Apos o crivo, mark[i-l] tem 1 se i nao for primo, caso contrario, mark[i-l] eh um primo.
  * Time: O(R-L + SQRT(R))
  * Status: Tested on Petrozavodsk Summer-2017. Songyang Chen Contest 1 - problem C
  */

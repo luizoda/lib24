@@ -53,7 +53,7 @@ struct suffix_automaton{
     }
     return t;
   }
-  // Daqui pra baixo é para problemas especificos, pode tirar!
+  // Daqui pra baixo eh para problemas especificos, pode tirar!
   int PRECALC=0;
   int Cnt(const string &s){
     calc_cnt();

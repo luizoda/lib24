@@ -86,9 +86,9 @@ int32_t main(){
 	for(int i = 1 ; i < 16 ; i ++){
 		pot10[i] = 10 * pot10[i-1];
 	}	
-	for(int i = 2 ; i < 16; i ++){ // numeros de [0 ,10^i - 1] quantidade de inversões (com exatamente i digitos)
-		for(int j = 0 ; j < i ; j ++){ // bruta a posição
-			// agora inversões prefixo com sufixo
+	for(int i = 2 ; i < 16; i ++){ // numeros de [0 ,10^i - 1] quantidade de inversoes (com exatamente i digitos)
+		for(int j = 0 ; j < i ; j ++){ // bruta a posicao
+			// agora inversoes prefixo com sufixo
 			// bruta o digito que vai ta aqui
 			ll ru = 0;
 			for(int k = 0 ; k < 10 ; k ++){
