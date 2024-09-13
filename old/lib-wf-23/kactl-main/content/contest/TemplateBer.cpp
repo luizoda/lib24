@@ -18,25 +18,6 @@ int main() {
     return 0;
 }
 
-// mt19937_64
-//
-// Random generator for long long
-
-mt19937_64 rng((ll) chrono::steady_clock::now().time_since_epoch().count());
-ll rand = rng();
-
-// timer
-//
-// timer T; T() -> retorna o tempo em ms desde que declarou
-using namespace chrono;
-struct timer : high_resolution_clock {
-	const time_point start;
-	timer(): start(now()) {}
-	int operator()() {
-		return duration_cast<milliseconds>(now() - start).count();
-	}
-};
-
 // bitset
 //
 // deve ser inicializado com um valor constante

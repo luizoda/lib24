@@ -9,14 +9,14 @@
 \section{Network flow}
 %	\kactlimport{PushRelabel.h}
 	%\kactlimport{MinCostMaxFlow.h}
-	\kactlimport{MinCostMaxFlowBer.h}
+	\kactlimport[-l rawcpp]{MinCostMaxFlowBer.cpp}
 	\kactlimport{EdmondsKarp.h}
 	%\kactlimport{EdmondsKarp.h}
 	\kactlimport{CirculationFlowDemands.cpp}
 	%\kactlimport{Dinic.h}
-	\kactlimport{DinicBer.cpp}
-	\kactlimport{LowerBoundMaxFlow.cpp}
-	\kactlimport{MinCut.h}
+	\kactlimport[-l rawcpp]{DinicBer.cpp}
+	\kactlimport[-l rawcpp]{LowerBoundMaxFlow.cpp}
+	%\kactlimport{MinCut.h}
 	\kactlimport{GlobalMinCut.h}
 	\kactlimport{GomoryHu.h}
 %	\kactlimport[-l rawcpp]{MincostFlow.cpp}
@@ -32,7 +32,8 @@
 \section{DFS algorithms}
 	\kactlimport{SCC.h}
 	\kactlimport{BiconnectedComponents.h}
-	\kactlimport{2sat.h}
+	%\kactlimport{2sat.h}
+	\kactlimport[-l rawcpp]{2SATUFMG.cpp}
 	\kactlimport{EulerWalk.h}
 
 \section{Coloring}
@@ -42,7 +43,7 @@
 	\kactlimport{MaximalCliques.h}
 	\kactlimport{MaximumClique.h}
 	\kactlimport{MaximumIndependentSet.h}
-	\kactlimport{TortoiseAndHare.cpp}
+	\kactlimport[-l rawcpp]{TortoiseAndHare.cpp}
 
 \section{Trees}
 	%\kactlimport{BinaryLifting.h}
@@ -51,7 +52,7 @@
 	\kactlimport{HLD.h}
 	\kactlimport{LinkCutTree.h}
 	\kactlimport{DirectedMST.h}
-	\kactlimport{TreeIsomorphism.h}
+	\kactlimport[-l rawcpp]{TreeIsomorphism.cpp}
 
 \section{Math}
 	\subsection{Number of Spanning Trees}
