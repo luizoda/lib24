@@ -1,14 +1,14 @@
-// Convex Hull Trick Dinamico
-// Author: UFMG
-// Description: N/A
-// para double, use LINF = 1/.0, div(a, b) = a/b
-// update(x) atualiza o ponto de intersecao da reta x
-// overlap(x) verifica se a reta x sobrepoe a proxima
-// add(a, b) adiciona reta da forma ax + b
-// query(x) computa maximo de ax + b para entre as retas
-//
-// O(log(n)) amortizado por insercao
-// O(log(n)) por query
+/**
+ * Author: UFMG
+ * Description:
+ * para double, use LINF = 1/.0, div(a, b) = a/b
+ * update(x) atualiza o ponto de intersecao da reta x
+ * overlap(x) verifica se a reta x sobrepoe a proxima
+ * add(a, b) adiciona reta da forma ax + b
+ * query(x) computa maximo de ax + b para entre as retas
+ * O(log(n)) amortizado por insercao
+ * O(log(n)) por query
+ */
 
 struct Line {
 	mutable ll a, b, p;
